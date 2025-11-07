@@ -145,15 +145,6 @@ The scanner recognizes common services on standard ports:
 - ✅ Security warning banner
 - ✅ Timeout protection
 
-## Deployment
-
-This project is deployed through Lovable:
-
-1. Open [Lovable Project](https://lovable.dev/projects/b75773a9-2e3f-47a0-aca1-00a5c01a50b5)
-2. Click "Share" → "Publish"
-3. Your app will be live with backend automatically deployed
-
-## Development
 
 ### Project Structure
 ```
@@ -178,12 +169,3 @@ supabase/functions/
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 
-## Support
-
-For issues and questions:
-- Visit [Lovable Docs](https://docs.lovable.dev/)
-- Join [Lovable Discord](https://discord.com/channels/1119885301872070706)
-
----
-
-Built with ❤️ using [Lovable](https://lovable.dev)
