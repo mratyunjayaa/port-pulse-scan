@@ -220,17 +220,17 @@ export const ScanForm = ({ onScanComplete, onScanStart, onScanError, isScanning 
               </div>
             )}
 
-            <Button type="submit" className="w-full" disabled={isScanning}>
+            <Button type="submit" className="w-full transition-all duration-300" disabled={isScanning}>
               {isScanning ? (
-                <>
+                <span className="animate-fade-in flex items-center">
                   <Loader2 className="mr-2 h-4 w-4 animate-spin" />
                   Scanning...
-                </>
+                </span>
               ) : (
-                <>
+                <span className="flex items-center">
                   <Search className="mr-2 h-4 w-4" />
                   Start Scan
-                </>
+                </span>
               )}
             </Button>
           </form>
